@@ -18,6 +18,14 @@ $blue: #7C90A8;
 }
 
 /* Estilos */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	font-size: 18px;
 	background-color: $gray;
@@ -31,7 +39,7 @@ body {
 	}
 
 .kontainer {
-	max-width: 1360px;
+	max-width: 1350px;
 	margin: 0 auto;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -85,12 +93,15 @@ body {
 		.flip {
 			transform: rotateY(180deg);
 		}
+
+		cursor: url(../img/rotate_cursor.png), auto;
 	}
 
 	.card__container, .front, .back {
 		width: 420px;
 		height: 300px;
 		max-width: 420px;
+		margin: 10px
 	}
 
 	/* flip speed goes here */
@@ -118,7 +129,7 @@ body {
 			font-weight: 300;
 			.name {
 				margin: 0;
-				font-size: 1.2em;
+				font-size: 1.1em;
 			}
 			.years {
 				color: $orange;
