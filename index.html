@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dipusaurios</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/dipusaurios.min.css">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    </head>
+    <body>
+        
+        <header class="header">
+            <div class="kontainer">
+                <img class="site__icon" src="img/skulls/icon_tyrannosaurus.svg" alt="">
+                <h1 class="site__title">Dipusaurios</h1>
+            </div>
+        </header>
+
+        <section class="content">
+            <div class="kontainer">              
+                <div class="content__filter">
+                    <h2 class="filter__title">Filtrar por</h2>
+                    <select id="by_department" data-placeholder="Por departamento" data-prefix="Departamento:" data-size="6">
+                        <option value="*">Todos</option>
+                        <option value=".ahuachapan">Ahuachapán</option>
+                        <option value=".cabanas">Cabañas</option>
+                        <option value=".chalatenango">Chalatenango</option>
+                        <option value=".cuscatlan">Cuscatlán</option>
+                        <option value=".la-libertad">La Libertad</option>
+                        <option value=".la-paz">La Paz</option>
+                        <option value=".la-union">La Unión</option>
+                        <option value=".morazan">Morazán</option>
+                        <option value=".san-miguel">San Miguel</option>
+                        <option value=".san-salvador">San Salvador</option>
+                        <option value=".san-vicente">San Vicente</option>
+                        <option value=".santa-ana">Santa Ana</option>
+                        <option value=".sonsonate">Sonsonate</option>
+                        <option value=".usulutan">Usulután</option>
+                    </select>
+                    <select id="by_gang" data-placeholder="Por partido" data-prefix="Partido:">
+                        <option value="*">Todos</option>
+                        <option value=".arena">ARENA</option>
+                        <option value=".fmln">FMLN</option>
+                        <option value=".pcn">PCN</option>
+                        <option value=".gana">GANA</option>
+                        <option value=".grupo">GPUE</option>
+                    </select>
+                </div>
+                <section class="content__people">
+                    <div class="card__container">
+                        <article class="card">
+                            <div class="front">
+                                <img class="card__image" src="img/loader.gif" data-echo="img/people/diputado_1.jpg" alt="Diputado">
+                                <div class="card__info">
+                                    <h1 class="name">Félix Agreda Chachagua</h1>
+                                    <p class="position">Diputado por el departamento de <span>Ahuachapán</span></p>
+                                    <p class="gang">ARENA</p>
+                                    <p class="years"><span>32 años</span> en el Pleno Legislativo</p>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="card__details">
+                                    <h2 class="years_position">32</h2>
+                                    <span>Años como diputado/a</span>
+                                    <ul class="years__details">
+                                        <li>9 años como diputado/a propietario</li>
+                                        <li>3 años como diputado/a suplente</li>
+                                    </ul>
+                                    <div class="contact">
+                                        <p>Correo electrónico: <a class="mail" href="">sdvdfb</a></p>
+                                        <p>Perfil institucional: <a class="profile" href="">dsfbdsbf</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="attribution">
+            Skulls designed by <a href="http://www.thenounproject.com/Dactrtr">Dactrtr</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
+        </div>
+        <!-- 
+        <script id="person-template" type="text/x-handlebars-template">
+            {{#each diputados}}
+            <div class="person {{this.department_clean}} {{this.party_clean}} person-{{this.id}}">
+                <img class="person__image" src="http://placehold.it/320x250" alt="">
+                <div class="person__info">
+                    <div class="person__name">
+                        <span>{{this.name}} </span>
+                    </div>
+                    <div class="years__charge">
+                        <span>{{this.years}} años</span>
+                    </div>
+                    <div class="person__charge">
+                        <span>Diputado en {{this.department}} por {{this.party}}</span>
+                    </div>
+                    <div class="person__contact">
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </script>  
+         -->
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/handlebars-v1.3.0.js"></script>
+        <script src="js/select/selectordie.min.js"></script>
+        <script src="js/echo/echo.min.js"></script>
+        <script src="js/dipusaurios.js"></script>
+        <script>
+            echo.init();
+        </script>
+    </body>
+</html>

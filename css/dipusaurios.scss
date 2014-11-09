@@ -1,0 +1,179 @@
+/* Colores */
+$gray: #F0EEE2;
+$orange: #A6431A;
+$brown: #251203;
+$yellow: #D3A341;
+$blue: #7C90A8;
+
+/* Imports */
+@import "../js/select/selectordie";
+
+/* Helpers */
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* Estilos */
+body {
+	font-size: 18px;
+	background-color: $gray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+	a {
+		color: $yellow;
+		text-decoration: none;
+		border-bottom: 2px solid $yellow;
+	}
+
+.kontainer {
+	max-width: 1360px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.header {
+	text-align: center;
+	padding: 5% 0;
+}
+	.site__icon,
+	.site__title {
+		margin: 0 10px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.site__title {		
+		font-size: 3.5em;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+	}
+	.site__icon {
+		width: 200px;
+	}
+
+.content__filter {
+	text-align: center;
+}
+	.filter__title {
+		font-size: 1.1em;
+		font-size: 11px;
+		text-transform: uppercase;
+	}
+	.filter__title,
+	#by_department,
+	#by_gang {
+		margin: 0 10px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+.content__people {
+	margin: 5% 0;
+	position: relative;
+	perspective: 800px;
+}
+	/* Set perspective and flip the card */
+	.card__container {
+		perspective: 1000;
+		.flip {
+			transform: rotateY(180deg);
+		}
+	}
+
+	.card__container, .front, .back {
+		width: 420px;
+		height: 300px;
+		max-width: 420px;
+	}
+
+	/* flip speed goes here */
+	.card {
+		transition: 0.6s;
+		transform-style: preserve-3d;
+
+		position: relative;
+		@include clearfix;
+	}
+		.card__image {
+			height: 100%;
+			margin-right: 10px;
+			float: left;
+		}
+		.card__image[src$=".gif"] {
+			width:16px!important;
+			height: auto;
+			margin: auto;
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+		}
+		.card__info {
+			padding: 10px;
+			font-weight: 300;
+			.name {
+				margin: 0;
+				font-size: 1.2em;
+			}
+			.years {
+				color: $orange;
+			}
+			span {
+				font-weight: 400;
+			}
+		}
+		.card__details {
+			padding: 10px;
+			text-align: center;
+			font-size: .8em;
+
+			.years_position {
+				margin: 0;
+				font-size: 4em;
+			}
+			.years__details {
+				padding: 5px auto;
+				text-align: left;
+				list-style: square;
+			}
+			.contact {
+				padding: 5px 0;
+				text-align: left;
+				border-top: 2px solid $gray;
+			}
+		}
+		
+
+	/* hide back of pane during swap */
+	.front, .back {
+		backface-visibility: hidden;
+		background-color: #FFF;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	/* front pane, placed above back */
+	.front {
+		z-index: 2;
+		/* for firefox 31 */
+		transform: rotateY(0deg);
+	}
+
+	/* back, initially hidden pane */
+	.back {
+		transform: rotateY(180deg);
+	}
+
+.attribution {
+	color: $blue;
+	padding: 2% 0;
+	text-align: center;
+}
+		
+	
