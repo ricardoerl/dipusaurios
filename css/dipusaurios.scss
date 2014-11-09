@@ -35,7 +35,6 @@ body {
 	a {
 		color: $yellow;
 		text-decoration: none;
-		border-bottom: 2px solid $yellow;
 	}
 
 .kontainer {
@@ -90,6 +89,7 @@ body {
 	/* Set perspective and flip the card */
 	.card__container {
 		perspective: 1000;
+		margin: 10px;
 		.flip {
 			transform: rotateY(180deg);
 		}
@@ -101,7 +101,6 @@ body {
 		width: 420px;
 		height: 300px;
 		max-width: 420px;
-		margin: 10px
 	}
 
 	/* flip speed goes here */
