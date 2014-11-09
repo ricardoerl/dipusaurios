@@ -576,7 +576,9 @@
         {
             "id" : 42,
             "name" : "Mario Marroquín Mejía",
-            "years" : 11,
+            "years" : 12,
+            "years_primary" : 12,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "mmarroquin@asamblea.gob.sv",
@@ -585,12 +587,15 @@
             "department_clean" : "santa-ana",
             "department" : "Santa Ana",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/mario-marroquin-mejia"
         },
         {
             "id" : 43,
             "name" : "Rodolfo Antonio Martínez",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "rodolfo.martinez@asamblea.gob.sv",
@@ -599,12 +604,15 @@
             "department_clean" : "san-miguel",
             "department" : "San Miguel",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/rodolfo-antonio-martinez"
         },
         {
             "id" : 44,
             "name" : "Guillermo Francisco Mata Bennett",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "guillermo.mata@asamblea.gob.sv",
@@ -613,12 +621,15 @@
             "department_clean" : "la-libertad",
             "department" : "La Libertad",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/guillermo-francisco-mata-bennett"
         },
         {
             "id" : 45,
             "name" : "Douglas Leonardo Mejía Avilés",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "CD",
             "party_clean"  : "cd",
             "mail" : "dmejia@asamblea.gob.sv",
@@ -627,12 +638,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/douglas-leonardo-mejia-aviles"
         },
         {
             "id" : 46,
             "name" : "Juan Carlos Mendoza Portillo",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "juan.mendoza@asamblea.gob.sv",
@@ -641,12 +655,15 @@
             "department_clean" : "santa-ana",
             "department" : "Santa Ana",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/juan-carlos-mendoza-portillo"
         },
         {
             "id" : 47,
             "name" : "Manuel Vicente Menjivar Esquivel",
-            "years" : 14,
+            "years" : 15,
+            "years_primary" : 12,
+            "years_secondary" : 3,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "mmenjivar@asamblea.gob.sv",
@@ -655,12 +672,15 @@
             "department_clean" : "la-libertad",
             "department" : "La Libertad",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/manuel-vicente-menjivar-esquivel"
         },
         {
             "id" : 48,
             "name" : "José Francisco Merino López",
-            "years" : 32,
+            "years" : 24,
+            "years_primary" : 21,
+            "years_secondary" : 3,
             "party"  : "PCN",
             "party_clean"  : "pcn",
             "mail" : "jmerino@asamblea.gob.sv",
@@ -669,12 +689,15 @@
             "department_clean" : "santa-ana",
             "department" : "Santa Ana",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/jose-francisco-merino-lopez"
         },
         {
             "id" : 49,
             "name" : "Sigifredo Ochoa Pérez",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party" : "Grupo Parlamentario  Unidos por El Salvador",
             "party_clean" : "grupo",
             "mail" : "sigifredo.ochoa@asamblea.gob.sv",
@@ -683,12 +706,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/sigifredo-ochoa-perez"
         },
         {
             "id" : 50,
             "name" : "Guillermo Antonio Olivo Méndez",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "guillermo.olivo@asamblea.gob.sv",
@@ -697,12 +723,15 @@
             "department_clean" : "sonsonate",
             "department" : "Sonsonate",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/guillermo-antonio-olivo-mendez"
         },
         {
             "id" : 51,
             "name" : "José Serafín Orantes Rodríguez",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "PCN",
             "party_clean"  : "pcn",
             "mail" : "serafin.orantes@asamblea.gob.sv",
@@ -711,12 +740,15 @@
             "department_clean" : "ahuachapan",
             "department" : "Ahuachapán",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/jose-serafin-orantes-rodriguez"
         },
         {
             "id" : 52,
             "name" : "Orestes Fredesman Ortez Andrade",
             "years" : 9,
+            "years_primary" : 6,
+            "years_secondary" : 9,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "orestes.ortez@asamblea.gob.sv",
@@ -725,12 +757,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/orestes-fredesman-ortez-andrade"
         },
         {
             "id" : 53,
             "name" : "Silvia Estela Ostorga de Escobar",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "silvia.ostorga@asamblea.gob.sv",
@@ -739,12 +774,15 @@
             "department_clean" : "sonsonate",
             "department" : "Sonsonate",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/silvia-estela-ostorga-de-escobar"
         },
         {
             "id" : 54,
             "name" : "Lourdes Palacios",
             "years" : 12,
+            "years_primary" : 9,
+            "years_secondary" : 3,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "lpalacios@asamblea.gob.sv",
@@ -753,12 +791,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/irma-lourdes-palacios-vasquez"
         },
         {
             "id" : 55,
             "name" : "Rodolfo Antonio Parker Soto",
-            "years" : 6,
+            "years" : 9,
+            "years_primary" : 9,
+            "years_secondary" : 0,
             "party"  : "PDC",
             "mail" : "rparker@asamblea.gob.sv",
             "twitter" : "https://twitter.com/PDC_OFICIAL",
@@ -766,12 +807,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/rodolfo-antonio-parker-soto"
         },
         {
             "id" : 56,
             "name" : "Lorena Guadalupe Peña Mendoza",
-            "years" : 20,
+            "years" : 15,
+            "years_primary" : 15,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "lorena.pena@asamblea.gob.sv",
@@ -780,12 +824,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/lorena-guadalupe-pena-mendoza"
         },
         {
             "id" : 57,
             "name" : "Mariella Peña Pinto",
             "years" : 18,
+            "years_primary" : 15,
+            "years_secondary" : 3,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "mpenapinto@asamblea.gob.sv",
@@ -794,12 +841,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/mariella-pena-pinto"
         },
         {
             "id" : 58,
             "name" : "Mario Antonio Ponce López",
             "years" : 18,
+            "years_primary" : 15,
+            "years_secondary" : 3,
             "party"  : "PCN",
             "party_clean"  : "pcn",
             "mail" : "mponce@asamblea.gob.sv",
@@ -808,12 +858,15 @@
             "department_clean" : "cuscatlan",
             "department" : "Cuscatlán",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/mario-antonio-ponce-lopez"
         },
         {
             "id" : 59,
             "name" : "Manuel Mercedes Portillo Domínguez",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "manuel.portillo@asamblea.gob.sv",
@@ -822,12 +875,15 @@
             "department_clean" : "la-libertad",
             "department" : "La Libertad",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/manuel-mercedes-portillo-dominguez"
         },
         {
             "id" : 60,
             "name" : "Nelson de Jesús Quintanilla Gómez",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "nelson.quintanilla@asamblea.gob.sv",
@@ -836,12 +892,15 @@
             "department_clean" : "san-miguel",
             "department" : "San Miguel",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/nelson-de-jesus-quintanilla-gomez"
         },
         {
             "id" : 61,
             "name" : "Claudia Luz Ramírez García",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party" : "Grupo Parlamentario  Unidos por El Salvador",
             "party_clean" : "grupo",
             "mail" : "claudia.ramirez@asamblea.gob.sv",
@@ -850,12 +909,15 @@
             "department_clean" : "santa-ana",
             "department" : "Santa Ana",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/claudia-luz-ramirez-garcia"
         },
         {
             "id" : 62,
             "name" : "Sigfrido Reyes",
-            "years" : 18,
+            "years" : 12,
+            "years_primary" : 12,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "sreyes@asamblea.gob.sv",
@@ -864,12 +926,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/othon-sigfrido-reyes-morales"
         },        
         {
             "id" : 63,
             "name" : "David Ernesto Reyes Molina",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "david.reyes@asamblea.gob.sv",
@@ -878,12 +943,15 @@
             "department_clean" : "sonsonate",
             "department" : "Sonsonate",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/david-ernesto-reyes-molina"
         },
         {
             "id" : 64,
             "name" : "Carlos Armando Reyes Ramos",
             "years" : 18,
+            "years_primary" : 15,
+            "years_secondary" : 3,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "creyes@asamblea.gob.sv",
@@ -892,12 +960,15 @@
             "department_clean" : "cabanas",
             "department" : "Cabañas",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/carlos-armando-reyes-ramos"
         },
         {
             "id" : 65,
             "name" : "Lorenzo Rivas Echeverria",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "lorenzo.rivas@asamblea.gob.sv",
@@ -906,12 +977,15 @@
             "department_clean" : "cabanas",
             "department" : "Cabañas",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/lorenzo-rivas-echeverria"
         },
         {
             "id" : 66,
             "name" : "Santos Adelmo Rivas Rivas",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party" : "Grupo Parlamentario  Unidos por El Salvador",
             "party_clean" : "grupo",
             "mail" : "santos.rivas@asamblea.gob.sv",
@@ -920,12 +994,15 @@
             "department_clean" : "sonsonate",
             "department" : "Sonsonate",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/santos-adelmo-rivas-rivas"
         },
         {
             "id" : 67,
             "name" : "Jackeline Noemí Rivera Ávalos",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "jackeline.rivera@asamblea.gob.sv",
@@ -934,12 +1011,15 @@
             "department_clean" : "cuscatlan",
             "department" : "Cuscatlán",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/jackeline-noemi-rivera-avalos"
         },
         {
             "id" : 68,
             "name" : "Abilio Orestes Rodríguez Menjívar",
             "years" : 9,
+            "years_primary" : 9,
+            "years_secondary" : 0,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "arodriguez@asamblea.gob.sv",
@@ -948,12 +1028,15 @@
             "department_clean" : "la-union",
             "department" : "La Unión",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/abilio-orestes-rodriguez-menjivar"
         },
         {
             "id" : 69,
             "name" : "David Rodríguez Rivera",
-            "years" : 18,
+            "years" : 12,
+            "years_primary" : 12,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "david.rodriguez@asamblea.gob.sv",
@@ -962,12 +1045,15 @@
             "department_clean" : "la-paz",
             "department" : "La Paz",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/david-rodriguez-rivera"
         },
         {
             "id" : 70,
             "name" : "Margarita Rodríguez Sigüenza",
             "years" : 9,
+            "years_primary" : 6,
+            "years_secondary" : 3,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "margarita.rodriguez@asamblea.gob.sv",
@@ -976,12 +1062,15 @@
             "department_clean" : "san-miguel",
             "department" : "San Miguel",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/sonia-margarita-rodriguez-siguenza"
         },
         {
             "id" : 71,
             "name" : "Alberto Armando Romero Rodríguez",
-            "years" : 14,
+            "years" : 15,
+            "years_primary" : 9,
+            "years_secondary" : 6,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "aromero@asamblea.gob.sv",
@@ -990,12 +1079,15 @@
             "department_clean" : "cuscatlan",
             "department" : "Cuscatlán",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/alberto-armando-romero-rodriguez"
         },
         {
             "id" : 72,
             "name" : "Sandra Marlene Salgado García",
-            "years" : 6,
+            "years" : 9,
+            "years_primary" : 9,
+            "years_secondary" : 0,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "ssalgado@asamblea.gob.sv",
@@ -1004,12 +1096,15 @@
             "department_clean" : "san-miguel",
             "department" : "San Miguel",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/sandra-marlene-salgado-garcia"
         },
         {
             "id" : 73,
             "name" : "Rodrigo Samayoa Rivas",
-            "years" : 20,
+            "years" : 9,
+            "years_primary" : 6,
+            "years_secondary" : 3,
             "party"  : "Diputado Independiente",
             "mail" : "rodrigo.samayoa@asamblea.gob.sv",
             "twitter" : "",
@@ -1017,12 +1112,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/rodrigo-samayoa-rivas"
         },
         {
             "id" : 74,
             "name" : "Karina Ivette Sosa de Lara",
-            "years" : 6,
+            "years" : 9,
+            "years_primary" : 3,
+            "years_secondary" : 6,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "ksosa@asamblea.gob.sv",
@@ -1031,12 +1129,15 @@
             "department_clean" : "sonsonate",
             "department" : "Sonsonate",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/karina-ivette-sosa-de-lara"
         },
         {
             "id" : 75,
             "name" : "Manuel Rigoberto Soto Lazo",
             "years" : 9,
+            "years_primary" : 6,
+            "years_secondary" : 3,
             "party"  : "Grupo Parlamentario Unidos por El Salvador",
             "party_clean"  : "grupo",
             "mail" : "rigoberto.soto@asamblea.gob.sv",
@@ -1045,12 +1146,15 @@
             "department_clean" : "usulutan",
             "department" : "Usulután",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/manuel-rigoberto-soto-lazo"
         },
         {
             "id" : 76,
             "name" : "Mario Alberto Tenorio Guerrero",
-            "years" : 14,
+            "years" : 9,
+            "years_primary" : 6,
+            "years_secondary" : 3,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "mtenorio@asamblea.gob.sv",
@@ -1059,12 +1163,15 @@
             "department_clean" : "la-paz",
             "department" : "La Paz",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/mario-alberto-tenorio-guerrero"
         },
         {
             "id" : 77,
             "name" : "Enrique Alberto Valdés Soto",
             "years" : 18,
+            "years_primary" : 12,
+            "years_secondary" : 6,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "evaldes@asamblea.gob.sv",
@@ -1073,12 +1180,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/enrique-alberto-valdes-soto"
         },
         {
             "id" : 78,
             "name" : "Jaime Gilberto Valdez Hernández",
-            "years" : 14,
+            "years" : 9,
+            "years_primary" : 6,
+            "years_secondary" : 3,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "jaime.valdez@asamblea.gob.sv",
@@ -1087,12 +1197,15 @@
             "department_clean" : "sonsonate",
             "department" : "Sonsonate",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/jaime-gilberto-valdez-hernandez"
         },
         {
             "id" : 79,
             "name" : "Ramón Arístides Valencia Arana",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "FMLN",
             "party_clean"  : "fmln",
             "mail" : "ramon.valencia@asamblea.gob.sv",
@@ -1101,12 +1214,15 @@
             "department_clean" : "usulutan",
             "department" : "Usulután",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/ramon-aristides-valencia-arana"
         },
         {
             "id" : 80,
             "name" : "Mario Eduardo Valiente Ortiz",
             "years" : 9,
+            "years_primary" : 9,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "mario.valiente@asamblea.gob.sv",
@@ -1115,12 +1231,15 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/mario-eduardo-valiente-ortiz"
         },
         {
             "id" : 81,
             "name" : "Donato Eugenio Vaquerano Rivas",
-            "years" : 14,
+            "years" : 15,
+            "years_primary" : 15,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "dvaquerano@asamblea.gob.sv",
@@ -1129,12 +1248,15 @@
             "department_clean" : "san-vicente",
             "department" : "San Vicente",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/donato-eugenio-vaquerano-rivas"
         },
         {
             "id" : 82,
             "name" : "Guadalupe Antonio Vázquez Martínez",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "antonio.vasquez@asamblea.gob.sv",
@@ -1143,12 +1265,15 @@
             "department_clean" : "morazan",
             "department" : "Morazán",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/guadalupe-antonio-vasquez-martinez"
         },
         {
             "id" : 83,
             "name" : "Francisco José Zablah Safie",
             "years" : 6,
+            "years_primary" : 6,
+            "years_secondary" : 0,
             "party"  : "GANA",
             "party_clean"  : "gana",
             "mail" : "francisco.zablah@asamblea.gob.sv",
@@ -1157,12 +1282,15 @@
             "department_clean" : "la-libertad",
             "department" : "La Libertad",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/francisco-jose-zablah-safie"
         },
         {
             "id" : 84,
             "name" : "Edwin Víctor Alejandro Zamora David",
             "years" : 3,
+            "years_primary" : 3,
+            "years_secondary" : 0,
             "party"  : "ARENA",
             "party_clean"  : "arena",
             "mail" : "edwin.zamora@asamblea.gob.sv",
@@ -1171,7 +1299,8 @@
             "department_clean" : "san-salvador",
             "department" : "San Salvador",
             "age"  : 0,
-            "photo" : ""
+            "photo" : "",
+            "profile": "http://www.asamblea.gob.sv/pleno/pleno-legislativo/edwin-victor-alejandro-zamora-david"
         }
     ]
 }
