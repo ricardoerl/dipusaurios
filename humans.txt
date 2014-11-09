@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Raúl Bermúdez -- Back-End Developer -- @rauler7
+    Gerardo Posada -- Designer -- @el_pots 
+    Ricardo Ramírez -- Front-End Developer -- @ricardoerl
+
+# THANKS
+
+    Gerardo Gómez -- The Boss -- @gerardo_g8
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
