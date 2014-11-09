@@ -51,6 +51,7 @@
                     </select>
                 </div>
                 <section class="content__people">
+<<<<<<< HEAD
                     <div class="card__container">
                         <article class="card">
                             <div class="front">
@@ -60,11 +61,29 @@
                                     <p class="position">Diputado por el departamento de <span>Ahuachapán</span></p>
                                     <p class="gang">ARENA</p>
                                     <p class="years"><span>32 años</span> en el Pleno Legislativo</p>
+=======
+
+                    <script id="person-template" type="text/x-handlebars-template">
+                    {{#each diputados}}
+                    <div class="card__container {{this.department_clean}} {{this.party_clean}} card__container-{{this.id}}">          
+                        <article class="card">
+                            <div class="front">
+                                <img class="card__image" src="img/loader.gif" data-echo="img/people/diputado_{{this.id}}.jpg" alt="Diputado">
+                                <div class="card__info">
+                                    <h1 class="name">{{this.name}}</h1>
+                                    <p class="position">Diputado por el departamento de <span>{{this.department}}</span></p>
+                                    <p class="gang">{{this.party}}</p>
+                                    <p class="years"><span>{{this.years}} años</span> en el Pleno Legislativo</p>
+>>>>>>> gh-pages
                                 </div>
                             </div>
                             <div class="back">
                                 <div class="card__details">
+<<<<<<< HEAD
                                     <h2 class="years_position">32</h2>
+=======
+                                    <h2 class="years_position">{{this.years}}</h2>
+>>>>>>> gh-pages
                                     <span>Años como diputado/a</span>
                                     <ul class="years__details">
                                         <li>9 años como diputado/a propietario</li>
@@ -77,13 +96,21 @@
                                 </div>
                             </div>
                         </article>
+<<<<<<< HEAD
                     </div>
+=======
+
+                    </div>
+                    {{/each}}
+                    </script>
+>>>>>>> gh-pages
                 </section>
             </div>
         </section>
         <div class="attribution">
             Tyrannosaurus Skull designed by <a href="http://www.thenounproject.com/Dactrtr">Dactrtr</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
         </div>
+<<<<<<< HEAD
         <!-- 
         <script id="person-template" type="text/x-handlebars-template">
             {{#each diputados}}
@@ -107,6 +134,9 @@
             {{/each}}
         </script>  
          -->
+=======
+
+>>>>>>> gh-pages
         <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
         <script src="js/handlebars-v1.3.0.js"></script>

@@ -18,6 +18,17 @@ $blue: #7C90A8;
 }
 
 /* Estilos */
+<<<<<<< HEAD
+=======
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+>>>>>>> gh-pages
 body {
 	font-size: 18px;
 	background-color: $gray;
@@ -31,7 +42,11 @@ body {
 	}
 
 .kontainer {
+<<<<<<< HEAD
 	max-width: 1360px;
+=======
+	max-width: 1350px;
+>>>>>>> gh-pages
 	margin: 0 auto;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -85,12 +100,21 @@ body {
 		.flip {
 			transform: rotateY(180deg);
 		}
+<<<<<<< HEAD
+=======
+
+		cursor: url(../img/rotate_cursor.png), auto;
+>>>>>>> gh-pages
 	}
 
 	.card__container, .front, .back {
 		width: 420px;
 		height: 300px;
 		max-width: 420px;
+<<<<<<< HEAD
+=======
+		margin: 10px
+>>>>>>> gh-pages
 	}
 
 	/* flip speed goes here */
@@ -118,7 +142,11 @@ body {
 			font-weight: 300;
 			.name {
 				margin: 0;
+<<<<<<< HEAD
 				font-size: 1.2em;
+=======
+				font-size: 1.1em;
+>>>>>>> gh-pages
 			}
 			.years {
 				color: $orange;
