@@ -30,6 +30,10 @@ body {
 	font-size: 18px;
 	background-color: $gray;
 	font-family: 'Open Sans', sans-serif;
+
+	@media screen and (max-width: 1350px) {
+		font-size: 16px;
+	}
 }
 
 	a {
@@ -115,6 +119,10 @@ body {
 		width: 420px;
 		height: 300px;
 		max-width: 420px;
+
+		@media screen and (max-width: 1350px) {
+			
+		}
 	}
 
 	/* flip speed goes here */
