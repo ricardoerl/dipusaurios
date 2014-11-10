@@ -4,7 +4,6 @@
 # TEAM
 
     Raúl Bermúdez -- Back-End Developer -- @rauler7
-    Gerardo Posada -- Designer -- @el_pots 
     Ricardo Ramírez -- Front-End Developer -- @ricardoerl
 
 # THANKS
