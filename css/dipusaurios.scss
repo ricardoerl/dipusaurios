@@ -108,8 +108,7 @@ body {
 		.flip {
 			transform: rotateY(180deg);
 		}
-
-		cursor: url(../img/rotate_cursor.png), auto;
+		cursor: pointer;
 	}
 
 	.card__container, .front, .back {
@@ -132,11 +131,10 @@ body {
 			float: left;
 		}
 		.card__image[src$=".gif"] {
-			width:16px!important;
-			height: auto;
+			height: 100%;
 			margin: auto;
 			position: absolute;
-			top: 0; left: 0; bottom: 0; right: 0;
+			top: 0; left: 0;
 		}
 		.card__info {
 			padding: 10px;
