@@ -42,103 +42,66 @@
         
         <header class="site-header">
             <div class="container">
-                <h1 class="site-title">Dipusaurios</h1>  
+                <h1 class="site-title">Dipusaurios</h1>
+                <div class="site-filter">
+                    <select id="by_department" data-placeholder="Por departamento" data-prefix="Departamento:" data-size="6">
+                        <option value="*">Todos</option>
+                        <option value=".ahuachapan">Ahuachapán</option>
+                        <option value=".cabanas">Cabañas</option>
+                        <option value=".chalatenango">Chalatenango</option>
+                        <option value=".cuscatlan">Cuscatlán</option>
+                        <option value=".la-libertad">La Libertad</option>
+                        <option value=".la-paz">La Paz</option>
+                        <option value=".la-union">La Unión</option>
+                        <option value=".morazan">Morazán</option>
+                        <option value=".san-miguel">San Miguel</option>
+                        <option value=".san-salvador">San Salvador</option>
+                        <option value=".san-vicente">San Vicente</option>
+                        <option value=".santa-ana">Santa Ana</option>
+                        <option value=".sonsonate">Sonsonate</option>
+                        <option value=".usulutan">Usulután</option>
+                    </select>
+                    <select id="by_gang" data-placeholder="Por partido" data-prefix="Partido:">
+                        <option value="*">Todos</option>
+                        <option value=".arena">ARENA</option>
+                        <option value=".fmln">FMLN</option>
+                        <option value=".pcn">PCN</option>
+                        <option value=".gana">GANA</option>
+                        <option value=".grupo">GPUE</option>
+                    </select>
+                </div>
             </div>
         </header>
 
         <div class="card-container">
+            <script id="person-template" type="text/x-handlebars-template">
             <div class="card-sizer"></div>
-            <div class="card"> 
+            {{#each diputados}}
+            <div class="card {{this.department_clean}} {{this.party_clean}}"> 
                 <div class="card-wrapper"> 
                     <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
+                        <p class="card-years years">{{this.years}} años</p>
+                        <img class="card-image" src="img/loader.png" data-echo="img/people/diputado_{{this.id}}.jpg" alt="Diputado/a {{this.name}}">
                         <div class="card-info">
-                            <span>Hola</span>
+                            <p class="info-detail name">{{this.name}}</p>
                         </div>
                     </div> 
                     <div class="face back"> 
-                        Back
+                        <p class="info-detail name">{{this.name}}</p>
+                        <p class="info-detail">Diputado/a por el departamento de <span class="department">{{this.department}}</span> por <span class="gang">{{this.party}}</span></p>
+                        <ul class="info-detail">
+                            <li>{{this.years_primary}} años como diputado/a propietario</li>
+                            <li>{{this.years_secondary}} años como diputado/a suplente</li>
+                        </ul>
+                        <div class="info-contact">
+                            <p class="info-detail mail"><a href="mailto:{{this.mail}}">Correo electrónico</a></p>
+                            <p class="info-detail profile"><a target="_blank" href="{{this.profile}}">Perfil institucional</a></p>
+                        </div>
                     </div> 
                 </div> 
             </div>
-            <div class="card"> 
-                <div class="card-wrapper"> 
-                    <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
-                        <div class="card-info">
-                            <span>Hola</span>
-                        </div>
-                    </div> 
-                    <div class="face back"> 
-                        Back
-                    </div> 
-                </div> 
-            </div>
-            <div class="card"> 
-                <div class="card-wrapper"> 
-                    <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
-                        <div class="card-info">
-                            <span>Hola</span>
-                        </div>
-                    </div> 
-                    <div class="face back"> 
-                        Back
-                    </div> 
-                </div> 
-            </div>
-            <div class="card"> 
-                <div class="card-wrapper"> 
-                    <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
-                        <div class="card-info">
-                            <span>Hola</span>
-                        </div>
-                    </div> 
-                    <div class="face back"> 
-                        Back
-                    </div> 
-                </div> 
-            </div>
-            <div class="card"> 
-                <div class="card-wrapper"> 
-                    <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
-                        <div class="card-info">
-                            <span>Hola</span>
-                        </div>
-                    </div> 
-                    <div class="face back"> 
-                        Back
-                    </div> 
-                </div> 
-            </div>
-            <div class="card"> 
-                <div class="card-wrapper"> 
-                    <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
-                        <div class="card-info">
-                            <span>Hola</span>
-                        </div>
-                    </div> 
-                    <div class="face back"> 
-                        Back
-                    </div> 
-                </div> 
-            </div>
-            <div class="card"> 
-                <div class="card-wrapper"> 
-                    <div class="face front"> 
-                        <img class="card-image" src="http://placehold.it/200x300">
-                        <div class="card-info">
-                            <span>Hola</span>
-                        </div>
-                    </div> 
-                    <div class="face back"> 
-                        Back
-                    </div> 
-                </div> 
-            </div> 
+            {{/each}}
+            </script>
         </div>
 
         <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>

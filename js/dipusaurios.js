@@ -1,9 +1,9 @@
 $(function(){
 	$.getJSON('data/dipusaurios.json', function (data) {
-		// var getTemplate = $("#person-template").html(),
-		// 	template    = Handlebars.compile(getTemplate);
+		var getTemplate = $("#person-template").html(),
+		template    = Handlebars.compile(getTemplate);
 
-		var container = $('.card-container').isotope({
+		var container = $('.card-container').html(template(data)).isotope({
 			masonry: {
 			  columnWidth: '.card-sizer'
 			},
