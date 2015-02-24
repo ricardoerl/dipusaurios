@@ -39,25 +39,11 @@
     </head>
     <body>
         <div id="fb-root"></div>
-        <header class="header">
-            <div class="kontainer">
-                <img class="site__icon" src="img/skulls/icon_tyrannosaurus.svg" alt="">
-                <div class="site__title">
-                    <h1 class="title">Dipusaurios</h1>
-                    <p class="description">En El Salvador, la perpetuidad en el poder no es sinónimo de experiencia.</p>
-                    <div class="social">
-                        <span class="facebook"><iframe src="//www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fdipusaurios.com%2F&amp;width&amp;layout=button_count&amp;appId=1478082862476083" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowTransparency="true"></iframe></span>
-                        <span class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dipusaurios.com/" data-lang="es">Twittear</a></span>
-                    </div>
-                </div>
-                
-            </div>
-        </header>
-
-        <section class="content">
-            <div class="kontainer">              
-                <div class="content__filter">
-                    <h2 class="filter__title">Filtrar por</h2>
+        
+        <header class="site-header">
+            <div class="container">
+                <h1 class="site-title">Dipusaurios</h1>
+                <div class="site-filter">
                     <select id="by_department" data-placeholder="Por departamento" data-prefix="Departamento:" data-size="6">
                         <option value="*">Todos</option>
                         <option value=".ahuachapan">Ahuachapán</option>
@@ -84,50 +70,38 @@
                         <option value=".grupo">GPUE</option>
                     </select>
                 </div>
-                <section class="content__people">
-
-                    <script id="person-template" type="text/x-handlebars-template">
-                    {{#each diputados}}
-                    <div class="card__container {{this.department_clean}} {{this.party_clean}} card__container-{{this.id}}">          
-                        <article class="card">
-                            <div class="front">
-                                <img class="card__image" src="img/loader.png" data-echo="img/people/diputado_{{this.id}}.jpg" alt="Diputado">
-                                <div class="card__info">
-                                    <h1 class="name">{{this.name}}</h1>
-                                    <p class="position">Diputado/a por el departamento de <span>{{this.department}}</span></p>
-                                    <p class="gang">{{this.party}}</p>
-                                    <p class="years"><span>{{this.years}} años</span> en el Pleno Legislativo</p>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="card__details">
-                                    <h2 class="years_position">{{this.years}}</h2>
-                                    <span>Años como diputado/a</span>
-                                    <ul class="years__details">
-                                        <li>{{this.years_primary}} años como diputado/a propietario</li>
-                                        <li>{{this.years_secondary}} años como diputado/a suplente</li>
-                                    </ul>
-                                    <div class="contact">
-                                        <p><a class="mail" href="mailto:{{this.mail}}">{{this.mail}}</a></p>
-                                        <p><a class="profile" target="_blank" href="{{this.profile}}">Enlace a perfil institucional</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                    </div>
-                    {{/each}}
-                    </script>
-
-                </section>
             </div>
-        </section>
-        <div class="colophon">
-            <p></p>
-        </div>
-        <div class="attribution">
-            <p>Desarrollado por <a href="https://twitter.com/RaulEr7">Raúl Bermúdez</a> y <a href="https://twitter.com/ricardoerl">Ricardo Ramírez</a></p>
-            <p>Tyrannosaurus Skull diseñado por <a href="http://www.thenounproject.com/Dactrtr">Dactrtr</a> en <a href="http://www.thenounproject.com">Noun Project</a></p>
+        </header>
+
+        <div class="card-container">
+            <script id="person-template" type="text/x-handlebars-template">
+            <div class="card-sizer"></div>
+            {{#each diputados}}
+            <div class="card {{this.department_clean}} {{this.party_clean}}"> 
+                <div class="card-wrapper"> 
+                    <div class="face front"> 
+                        <p class="card-years years">{{this.years}} años</p>
+                        <img class="card-image" src="img/loader.png" data-echo="img/people/diputado_{{this.id}}.jpg" alt="Diputado/a {{this.name}}">
+                        <div class="card-info">
+                            <p class="info-detail name">{{this.name}}</p>
+                        </div>
+                    </div> 
+                    <div class="face back"> 
+                        <p class="info-detail name">{{this.name}}</p>
+                        <p class="info-detail">Diputado/a por el departamento de <span class="department">{{this.department}}</span> por <span class="gang">{{this.party}}</span></p>
+                        <ul class="info-detail">
+                            <li>{{this.years_primary}} años como diputado/a propietario</li>
+                            <li>{{this.years_secondary}} años como diputado/a suplente</li>
+                        </ul>
+                        <div class="info-contact">
+                            <p class="info-detail mail"><a href="mailto:{{this.mail}}">Correo electrónico</a></p>
+                            <p class="info-detail profile"><a target="_blank" href="{{this.profile}}">Perfil institucional</a></p>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+            {{/each}}
+            </script>
         </div>
 
         <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -139,15 +113,6 @@
         <script>
             echo.init();
         </script>
-        
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=1478082862476083&version=v2.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
