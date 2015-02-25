@@ -43,5 +43,5 @@ $(function(){
 	        return false;
 	    });
 		
-	});
+	});	
 });
