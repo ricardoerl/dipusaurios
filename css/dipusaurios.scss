@@ -36,6 +36,15 @@ body {
 	}
 }
 
+p {
+	line-height: 1.5;
+}
+
+a {
+	color: #107FC9;
+	text-decoration: none;
+}
+
 .container,
 .card-container {
 	max-width: 960px;
@@ -114,6 +123,10 @@ body {
 			border-radius: 50%;
 		}
 	}
+
+.flare {
+	border-radius: 0!important;
+}
 
 .card, 
 .card-sizer {
