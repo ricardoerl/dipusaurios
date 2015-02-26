@@ -70,8 +70,17 @@
                         <option value=".grupo">GPUE</option>
                     </select>
                 </div>
+                <a href="#modal" id="site-disclaimer-link">¿Qué es esto?</a>
             </div>
         </header>
+        
+        <div class="remodal-bg">
+            <div class="remodal" data-remodal-id="modal">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas velit culpa vel error aspernatur, itaque eius assumenda. Possimus, sunt, totam. Voluptate odit sed doloremque consectetur sapiente dolorem cum quis error consequatur expedita ea enim quaerat quam dolorum numquam vel, dicta quae, labore. Nobis sint, maiores a ratione ducimus, rem itaque.</p>
+            </div>
+        </div>
+        
 
         <div class="card-container">
             <script id="person-template" type="text/x-handlebars-template">
@@ -103,16 +112,18 @@
             {{/each}}
             </script>
         </div>
-
+        
         <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
         <script src="js/handlebars-v1.3.0.js"></script>
         <script src="js/select/selectordie.min.js"></script>
+        <script src="js/remodal/dist/jquery.remodal.js"></script>
         <script src="js/echo/echo.min.js"></script>
         <script src="js/dipusaurios.js"></script>
         <script>
             echo.init();
         </script>
+        <script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/c864d6fddedcbbd2dd3e4cd7bc9152ca.js" async="async"></script>   
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
