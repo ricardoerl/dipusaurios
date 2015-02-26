@@ -37,11 +37,11 @@ $(function(){
 		});
 		
 		$('.card').click(function(){
-	        $(this).find('.card-wrapper').addClass('flipped').mouseleave(function(){
-	            $(this).removeClass('flipped');
-	        });
+	        $(this).find('.card-wrapper').addClass('flipped')
 	        return false;
-	    });
+	    }).mouseleave(function(){
+            $(this).find('.card-wrapper').removeClass('flipped');
+        });;
 		
 	});	
 });
