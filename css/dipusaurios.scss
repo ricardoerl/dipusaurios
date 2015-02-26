@@ -69,6 +69,7 @@ a {
 	.site-title {
 		margin: 0;
 		font-size: 1em;
+		line-height: 1.2;
 		text-transform: uppercase;
 		padding: 5px;
 	}
@@ -249,7 +250,7 @@ a {
 			cursor: pointer;
 			transform: rotatey(-180deg);
 			padding: 15px;
-			z-index: 99999;
+			z-index: 1;
 		}
 
 		ul {
