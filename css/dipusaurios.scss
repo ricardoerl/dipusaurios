@@ -27,7 +27,10 @@ body {
 	position: relative;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
-	background: #F7F7F7;
+
+	background: #C6C6C5 url('../img/fossil-background.png');
+	background-repeat: repeat-x;
+
 	@media screen and (max-width: 1350px) {
 		font-size: 16px;
 	}
@@ -48,8 +51,9 @@ body {
 }
 
 .site-header {
-	// background: #8D6D45 url('../img/fossil-background.png') center;
+	background: lighten(#C6C6C5, 15%);
 	padding: 20px 0;
+	margin-bottom: 20px;
 	@include clearfix;
 }
 

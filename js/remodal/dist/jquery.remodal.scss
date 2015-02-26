@@ -129,7 +129,7 @@ body.remodal-is-active .remodal-bg {
     transition: opacity 0.2s ease-out;
 
     opacity: 0;
-    background: rgba(33, 36, 46, 0.95);
+    background: rgba(#C6C6C5, 0.95);
 }
 
 body.remodal-is-active .remodal-overlay {
@@ -222,7 +222,7 @@ body.remodal-is-active .remodal {
 
 .remodal-close:hover,
 .remodal-close:active {
-    background: #3e5368;
+    background: #C6C6C5;
 }
 
 .remodal-close:hover.remodal-close:after,
